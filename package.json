@@ -1,0 +1,25 @@
+{
+  "name": "automation-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:test": "cypress run --config baseUrl=https://basicfittest-apiv6.gymmanager.eu/",
+    "cy:prod": "cypress run --config baseUrl=https://basicfit-apiv6.gymmanager.eu/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fatemeshbnz/Automation-Cypress.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fatemeshbnz/Automation-Cypress/issues"
+  },
+  "homepage": "https://github.com/fatemeshbnz/Automation-Cypress#readme",
+  "dependencies": {
+    "cypress": "^12.8.1"
+  }
+  
+}
